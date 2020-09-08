@@ -15,13 +15,12 @@ const personalMoviesDB = {
 const a = prompt('Один из последних просмотренных фильмов?', ''),
 	b = prompt('На сколько оцените его от 1 до 5?', ''),
 	c = prompt('Какой актер Вам запомнился?', ''),
-	d = prompt('Оцените его игру от 1 до 5?', ''),
-	f = prompt('В каком жанре этот фильм?', ''),
-	g = prompt('На сколько Вы любите этот жанр от 1 до 5?', '');
+	d = prompt('В каком жанре этот фильм?', '');
+
 
 personalMoviesDB.movies[a] = b;
-personalMoviesDB.actors[c] = d;
-personalMoviesDB.genres[f] = g;
+personalMoviesDB.actors = c;
+personalMoviesDB.genres = d;
 
 console.log(personalMoviesDB);
 };
