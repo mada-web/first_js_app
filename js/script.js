@@ -19,7 +19,7 @@ window.onload = function () {
 		movies: {},
 		actors: {},
 		genres: [],
-		privat: true
+		privat: false
 	};
 
 
