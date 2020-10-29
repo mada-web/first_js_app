@@ -62,10 +62,10 @@ const personalMoviesDB = {
       } else {
         personalMoviesDB.genres[i - 1] = genres;
       }
-      personalMoviesDB.genres.forEach((item, i) => {
-        console.log(`Любимый жанр ${i + 1} - это ${item}`);
-      });
     }
+    personalMoviesDB.genres.forEach((item, i) => {
+      console.log(`Любимый жанр ${i + 1} - это ${item}`);
+    });
   },
 };
 // };
